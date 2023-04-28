@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import "~font-awesome/css/font-awesome.css";
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Merienda+One&family=Staatliches&display=swap");
+
+.container {
+  max-width: 450px;
+  padding: 3px 40px 40px 40px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 35px 8px rgb(147, 158, 147);
+
+  background-color: white;
+}
+input {
+  border-radius: 12px;
+  margin-top: 8px;
+}
+.textual {
+  color: rgb(64, 85, 15);
+  text-align: center;
+  margin-top: -20px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.loginbtn {
+  background-color: transparent;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.headbtn1,
+.headbtn2,
+.headbtn3 {
+  border: none;
+  padding: 2% 20px 2% 20px;
+  width: 122px;
+  font-weight: bold;
+  background-color: transparent;
+  margin-left: 0px;
+}
+.headbtn1:hover,
+.headbtn2:hover,
+.headbtn3:hover {
+  background-color: rgb(223, 231, 184);
+}
+
+.headbtn1 {
+  margin-top: -40%;
+  margin-bottom: 10%;
+}
